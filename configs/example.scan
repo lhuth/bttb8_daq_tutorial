@@ -1,9 +1,9 @@
 [global]
 repeatScans = 1
-allowNested = 0 # overrides local nested arguments
+allowNested = 0 # overwrites local nested arguments
 #configPrefix = "path/to/folder/scanned" // optional
 timeBasedScan = 1 # 1 = true :)
-timePerStep = 10 #in seconds for now
+timePerStep = 10 #in second
 nEventsPerStep   = 200
 
 [0]
