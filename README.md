@@ -4,3 +4,5 @@ This is a collection of documents and scripts that will help you during the
 bttb8 tutuorials.
 
 Please note that all scripts assume you start in the repositories main folder
+
+To install eudaq make sure, that qt5 and root are installed

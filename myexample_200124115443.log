@@ -1,0 +1,198 @@
+
+*** LogCollector started at 1579863283 ***
+[0m[1m[2020-01-24 11:54:43.881] [0m[32;1m(INFO)[0m [DataCollector.my_dc ]Receive an INI section
+    <Configuration>
+      <Section title="">
+        <EUDAQ_LOG_ADDR>tcp://127.0.0.1:39789</EUDAQ_LOG_ADDR>
+        <Name>/home/lhuth/bttb8_daq_tutorial/configs/example.ini</Name>
+      </Section>
+    </Configuration>
+
+[0m[1m[2020-01-24 11:54:43.881] [0m[32;1m(INFO)[0m [DataCollector.my_dc ]DataCollector.my_dc is to be initialised...
+[0m[1m[2020-01-24 11:54:43.882] [0m[32;1m(INFO)[0m [DataCollector.my_dc ]TCPServer:: Listening on port 34419
+[0m[1m[2020-01-24 11:54:43.981] [0m[32;1m(INFO)[0m [Monitor.my_mon ]Receive an INI section
+    <Configuration>
+      <Section title="">
+        <EUDAQ_LOG_ADDR>tcp://127.0.0.1:39789</EUDAQ_LOG_ADDR>
+        <Name>/home/lhuth/bttb8_daq_tutorial/configs/example.ini</Name>
+      </Section>
+    </Configuration>
+
+[0m[1m[2020-01-24 11:54:43.981] [0m[32;1m(INFO)[0m [Monitor.my_mon ]Monitor.my_mon is to be initialised...
+[0m[1m[2020-01-24 11:54:43.982] [0m[32;1m(INFO)[0m [Monitor.my_mon ]TCPServer:: Listening on port 37771
+[0m[1m[2020-01-24 11:54:44.082] [0m[32;1m(INFO)[0m [Producer.my_pd1 ]Receive an INI section
+    <Configuration>
+      <Section title="">
+        <EUDAQ_LOG_ADDR>tcp://127.0.0.1:39789</EUDAQ_LOG_ADDR>
+        <Name>/home/lhuth/bttb8_daq_tutorial/configs/example.ini</Name>
+      </Section>
+      <Section title="Producer.my_pd1">
+        <EX0_DEV_LOCK_PATH>/tmp/mydev1.lock</EX0_DEV_LOCK_PATH>
+      </Section>
+    </Configuration>
+
+[0m[1m[2020-01-24 11:54:44.082] [0m[32;1m(INFO)[0m [Producer.my_pd1 ]Producer.my_pd1 is to be initialised...
+[0m[1m[2020-01-24 11:54:44.083] [0m[32;1m(INFO)[0m [Producer.my_pd1 ]Producer.my_pd1 is initialised.
+[0m[1m[2020-01-24 11:54:44.184] [0m[32;1m(INFO)[0m [Producer.my_pd0 ]Receive an INI section
+    <Configuration>
+      <Section title="">
+        <EUDAQ_LOG_ADDR>tcp://127.0.0.1:39789</EUDAQ_LOG_ADDR>
+        <Name>/home/lhuth/bttb8_daq_tutorial/configs/example.ini</Name>
+      </Section>
+      <Section title="Producer.my_pd0">
+        <EX0_DEV_LOCK_PATH>/tmp/mydev0.lock</EX0_DEV_LOCK_PATH>
+      </Section>
+    </Configuration>
+
+[0m[1m[2020-01-24 11:54:44.184] [0m[32;1m(INFO)[0m [Producer.my_pd0 ]Producer.my_pd0 is to be initialised...
+[0m[1m[2020-01-24 11:54:44.184] [0m[32;1m(INFO)[0m [Producer.my_pd0 ]Producer.my_pd0 is initialised.
+[0m[1m[2020-01-24 11:54:44.883] [0m[32;1m(INFO)[0m [DataCollector.my_dc ]DataCollector.my_dc is initialised.
+[0m[1m[2020-01-24 11:54:44.983] [0m[32;1m(INFO)[0m [Monitor.my_mon ]Monitor.my_mon is initialised.
+[0m[1m[2020-01-24 11:54:46.505] [0m[32;1m(INFO)[0m [RunControl.RC-GUI ]Processing Configure command
+[0m[1m[2020-01-24 11:54:46.506] [0m[32;1m(INFO)[0m [DataCollector.my_dc ]Receive a CONF section
+    <Configuration>
+      <Section title="">
+        <DataCollector.my_dc>tcp://127.0.0.1:34419</DataCollector.my_dc>
+        <LogCollector.log>tcp://127.0.0.1:39789</LogCollector.log>
+        <Monitor.my_mon>tcp://127.0.0.1:37771</Monitor.my_mon>
+        <Name>/home/lhuth/bttb8_daq_tutorial/configs/example.conf</Name>
+      </Section>
+      <Section title="DataCollector.my_dc">
+        <EUDAQ_DATACOL_SEND_MONITOR_FRACTION>10</EUDAQ_DATACOL_SEND_MONITOR_FRACTION>
+        <EUDAQ_FW>native</EUDAQ_FW>
+        <EUDAQ_FW_PATTERN>run$3R_$12D$X</EUDAQ_FW_PATTERN>
+        <EUDAQ_MN>my_mon</EUDAQ_MN>
+      </Section>
+    </Configuration>
+
+[0m[1m[2020-01-24 11:54:46.506] [0m[32;1m(INFO)[0m [DataCollector.my_dc ]DataCollector.my_dc is to be configured...
+[0m[1m[2020-01-24 11:54:46.506] [0m[32;1m(INFO)[0m [Monitor.my_mon ]Receive a CONF section
+    <Configuration>
+      <Section title="">
+        <DataCollector.my_dc>tcp://127.0.0.1:34419</DataCollector.my_dc>
+        <LogCollector.log>tcp://127.0.0.1:39789</LogCollector.log>
+        <Monitor.my_mon>tcp://127.0.0.1:37771</Monitor.my_mon>
+        <Name>/home/lhuth/bttb8_daq_tutorial/configs/example.conf</Name>
+      </Section>
+      <Section title="Monitor.my_mon">
+        <EX0_ENABLE_PRINT>0</EX0_ENABLE_PRINT>
+        <EX0_ENABLE_STD_CONVERTER>1</EX0_ENABLE_STD_CONVERTER>
+        <EX0_ENABLE_STD_PRINT>0</EX0_ENABLE_STD_PRINT>
+      </Section>
+    </Configuration>
+
+[0m[1m[2020-01-24 11:54:46.506] [0m[32;1m(INFO)[0m [Monitor.my_mon ]Monitor.my_mon is to be configured...
+[0m[1m[2020-01-24 11:54:46.507] [0m[32;1m(INFO)[0m [Monitor.my_mon ]Monitor.my_mon is configured.
+[0m[1m[2020-01-24 11:54:46.506] [0m[32;1m(INFO)[0m [Producer.my_pd1 ]Receive a CONF section
+    <Configuration>
+      <Section title="">
+        <DataCollector.my_dc>tcp://127.0.0.1:34419</DataCollector.my_dc>
+        <LogCollector.log>tcp://127.0.0.1:39789</LogCollector.log>
+        <Monitor.my_mon>tcp://127.0.0.1:37771</Monitor.my_mon>
+        <Name>/home/lhuth/bttb8_daq_tutorial/configs/example.conf</Name>
+      </Section>
+      <Section title="Producer.my_pd1">
+        <# EX0_ENABLE_TIMESTAMP>0</# EX0_ENABLE_TIMESTAMP>
+        <EUDAQ_DC>my_dc</EUDAQ_DC>
+        <EX0_DEV_LOCK_PATH>mylock1</EX0_DEV_LOCK_PATH>
+        <EX0_DURATION_BUSY_MS>100</EX0_DURATION_BUSY_MS>
+        <EX0_ENABLE_TRIGERNUMBER>1</EX0_ENABLE_TRIGERNUMBER>
+        <EX0_PLANE_ID>1</EX0_PLANE_ID>
+      </Section>
+    </Configuration>
+
+[0m[1m[2020-01-24 11:54:46.506] [0m[32;1m(INFO)[0m [Producer.my_pd1 ]Producer.my_pd1 is to be configured...
+[0m[1m[2020-01-24 11:54:46.507] [0m[32;1m(INFO)[0m [DataCollector.my_dc ]DataCollector.my_dc is configured.
+[0m[1m[2020-01-24 11:54:46.507] [0m[32;1m(INFO)[0m [Producer.my_pd1 ]Producer.my_pd1 is configured.
+[0m[1m[2020-01-24 11:54:46.534] [0m[32;1m(INFO)[0m [Producer.my_pd0 ]Receive a CONF section
+    <Configuration>
+      <Section title="">
+        <DataCollector.my_dc>tcp://127.0.0.1:34419</DataCollector.my_dc>
+        <LogCollector.log>tcp://127.0.0.1:39789</LogCollector.log>
+        <Monitor.my_mon>tcp://127.0.0.1:37771</Monitor.my_mon>
+        <Name>/home/lhuth/bttb8_daq_tutorial/configs/example.conf</Name>
+      </Section>
+      <Section title="Producer.my_pd0">
+        <EUDAQ_DC>my_dc</EUDAQ_DC>
+        <EX0_DEV_LOCK_PATH>mylock0</EX0_DEV_LOCK_PATH>
+        <EX0_DURATION_BUSY_MS>10</EX0_DURATION_BUSY_MS>
+        <EX0_ENABLE_TRIGERNUMBER>1</EX0_ENABLE_TRIGERNUMBER>
+        <EX0_PLANE_ID>0</EX0_PLANE_ID>
+      </Section>
+    </Configuration>
+
+[0m[1m[2020-01-24 11:54:46.534] [0m[32;1m(INFO)[0m [Producer.my_pd0 ]Producer.my_pd0 is to be configured...
+[0m[1m[2020-01-24 11:54:46.535] [0m[32;1m(INFO)[0m [Producer.my_pd0 ]Producer.my_pd0 is configured.
+[0m[1m[2020-01-24 11:54:57.580] [0m[32;1m(INFO)[0m [RunControl.RC-GUI ]Processing StartRun command for RUN #91
+[0m[1m[2020-01-24 11:54:57.681] [0m[32;1m(INFO)[0m [Monitor.my_mon ]RUN #91 is to be started...
+[0m[1m[2020-01-24 11:54:57.681] [0m[32;1m(INFO)[0m [Monitor.my_mon ]RUN #91 is started.
+[0m[1m[2020-01-24 11:54:58.781] [0m[32;1m(INFO)[0m [DataCollector.my_dc ]RUN #91 is to be started...
+[0m[1m[2020-01-24 11:54:58.783] [0m[32;1m(INFO)[0m [Monitor.my_mon ]DataReceiver: Connection from <ConnectionTCP>
+  <FD>tcp://127.0.0.1:59336</FD>
+  <Connection>
+    <Type>DataCollector</Type>
+    <Name>my_dc</Name>
+    <State>1</State>
+  </Connection>
+</ConnectionTCP>
+
+[0m[1m[2020-01-24 11:54:58.783] [0m[32;1m(INFO)[0m [DataCollector.my_dc ]RUN #91 is started.
+[0m[1m[2020-01-24 11:54:59.881] [0m[32;1m(INFO)[0m [Producer.my_pd1 ]RUN #91 is to be started...
+[0m[1m[2020-01-24 11:54:59.883] [0m[32;1m(INFO)[0m [DataCollector.my_dc ]DataReceiver: Connection from <ConnectionTCP>
+  <FD>tcp://127.0.0.1:52886</FD>
+  <Connection>
+    <Type>Producer</Type>
+    <Name>my_pd1</Name>
+    <State>1</State>
+  </Connection>
+</ConnectionTCP>
+
+[0m[1m[2020-01-24 11:54:59.884] [0m[32;1m(INFO)[0m [Producer.my_pd1 ]RUN #91 is started.
+[0m[1m[2020-01-24 11:55:00.982] [0m[32;1m(INFO)[0m [Producer.my_pd0 ]RUN #91 is to be started...
+[0m[1m[2020-01-24 11:55:00.986] [0m[32;1m(INFO)[0m [DataCollector.my_dc ]DataReceiver: Connection from <ConnectionTCP>
+  <FD>tcp://127.0.0.1:52888</FD>
+  <Connection>
+    <Type>Producer</Type>
+    <Name>my_pd0</Name>
+    <State>1</State>
+  </Connection>
+</ConnectionTCP>
+
+[0m[1m[2020-01-24 11:55:00.986] [0m[32;1m(INFO)[0m [Producer.my_pd0 ]RUN #91 is started.
+[0m[1m[2020-01-24 11:55:21.556] [0m[32;1m(INFO)[0m [RunControl.RC-GUI ]Processing StopRun command for RUN #91
+[0m[1m[2020-01-24 11:55:21.557] [0m[32;1m(INFO)[0m [Producer.my_pd0 ]RUN #91 is to be stopped...
+[0m[1m[2020-01-24 11:55:21.560] [0m[32;1m(INFO)[0m [Producer.my_pd0 ]RUN #91 is stopped.
+[0m[1m[2020-01-24 11:55:21.611] [0m[32;1m(INFO)[0m [DataCollector.my_dc ]DataReceiver: Disconnected from <ConnectionTCP>
+  <FD>tcp://127.0.0.1:52888</FD>
+  <Connection>
+    <Type>Producer</Type>
+    <Name>my_pd0</Name>
+    <State>0</State>
+  </Connection>
+</ConnectionTCP>
+
+[0m[1m[2020-01-24 11:55:21.657] [0m[32;1m(INFO)[0m [Producer.my_pd1 ]RUN #91 is to be stopped...
+[0m[1m[2020-01-24 11:55:21.711] [0m[32;1m(INFO)[0m [Producer.my_pd1 ]RUN #91 is stopped.
+[0m[1m[2020-01-24 11:55:21.811] [0m[32;1m(INFO)[0m [DataCollector.my_dc ]DataReceiver: Disconnected from <ConnectionTCP>
+  <FD>tcp://127.0.0.1:52886</FD>
+  <Connection>
+    <Type>Producer</Type>
+    <Name>my_pd1</Name>
+    <State>0</State>
+  </Connection>
+</ConnectionTCP>
+
+[0m[1m[2020-01-24 11:55:22.657] [0m[32;1m(INFO)[0m [DataCollector.my_dc ]RUN #91 is to be stopped...
+[0m[1m[2020-01-24 11:55:22.713] [0m[32;1m(INFO)[0m [Monitor.my_mon ]DataReceiver: Disconnected from <ConnectionTCP>
+  <FD>tcp://127.0.0.1:59336</FD>
+  <Connection>
+    <Type>DataCollector</Type>
+    <Name>my_dc</Name>
+    <State>0</State>
+  </Connection>
+</ConnectionTCP>
+
+[0m[1m[2020-01-24 11:55:23.289] [0m[32;1m(INFO)[0m [DataCollector.my_dc ]RUN #91 is stopped.
+[0m[1m[2020-01-24 11:55:23.658] [0m[32;1m(INFO)[0m [Monitor.my_mon ]RUN #91 is to be stopped...
+[0m[1m[2020-01-24 11:55:25.188] [0m[32;1m(INFO)[0m [Monitor.my_mon ]RUN #91 is stopped.
+[0m[1m[2020-01-24 11:55:25.355] [0m[32;1m(INFO)[0m [RunControl.RC-GUI ]Processing Terminate command
